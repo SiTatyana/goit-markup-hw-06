@@ -513,7 +513,7 @@ input [type="checkbox"] {
 .features-item:last-child {
   margin-right: 0;
 }
-
+/* change the way */
 .icon-antenna::before {
   background-image: url(../images/icons/antenna.svg);
 }

@@ -40,7 +40,7 @@
           <li class="header-item">
             <a class="header-contacts" href="mailto:info@devstudio.com" aria-label="email">
               <svg class="header-socials-icon" width="16" height="12">
-                <use href="./images/Icons/envelope,phone.svg#envelope">
+                <use href="./images/icons/icons.svg#email-nav">
                 </use>
               </svg>
               info@devstudio.com</a>
@@ -48,7 +48,7 @@
           <li class="header-item">
             <a class="header-contacts " href="tel:+380961111111" aria-label="phone number">
               <svg class="header-socials-icon " width="10" height="16">
-                <use href="./images/Icons/envelope,phone.svg#phone"></use>
+                <use href="./images/icons/icons.svg#phone-nav"></use>
               </svg>
               +38 096 111 11 11</a>
           </li>
@@ -62,15 +62,62 @@
       <div class="container">
         <h1 class="hero-title">Эффективные решения</br>для вашего бизнеса</h1>
         <button data-modal-open class="hero-btn" type="button">Заказать услугу</button>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <button data-modal-close class="close">&#10005
-            </button>
-          </div>
-
-        </div>
       </div>
     </section>
+    <div class="backdrop is-hidden" data-modal>
+      <div role="group" class="modal">
+        <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+
+        <form>
+
+          <label class="modal-form-field">
+            <span class="modai-text">Имя</span>
+            <input class="modal-input" type="text" name="username" autocomplete="name" autofocus />
+            <svg class="modal-icon" width="18" height="18">
+              <use class="modal-svg" href="./images/icons/icons.svg#name"></use>
+            </svg>
+          </label>
+
+          <label class="modal-form-field">
+            <span class="modai-text">Телефон</span>
+            <input class="modal-input" type="phone" name="phone-number" autocomplete="tel" />
+            <svg class="modal-icon" width="18" height="18">
+              <use class="modal-svg" href="./images/icons/icons.svg#phone"></use>
+            </svg>
+          </label>
+
+          <label class="modal-form-field">
+            <span class="modai-text">Почта</span>
+            <input class="modal-input" type="email" name="email" autocomplete="email" />
+            <svg class="modal-icon" width="18" height="18">
+              <use class="modal-svg" href="./images/icons/icons.svg#email"></use>
+            </svg>
+          </label>
+
+
+          <div class="modal-form-field last">
+            <label class="modal-comments" for="comments">Комментарий</label>
+            <textarea class="modal-textarea" name="comments" width="448px" height="120px"
+              placeholder="Введите текст"></textarea>
+          </div>
+
+          <label class="modal-checkbox">
+            <input class="checkbox" type="checkbox" name="agreement" value="agree" />
+            <span class="check-icon"></span>
+            Соглашаюсь с рассылкой и принимаю
+            <a class="modal-link" href="">Условия договора</a>
+          </label>
+
+          <div class="modal-submit-button">
+            <button class="modal-submit" type="submit">Отправить</button>
+          </div>
+        </form>
+        <button data-modal-close class="close">&#10005
+        </button>
+      </div>
+
+    </div>
+
     <!-- Наши особенности -->
     <section class="features section">
       <div class="container">
@@ -144,28 +191,28 @@
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Instagram">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#instagram"></use>
+                      <use href="./images/icons/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Twitter">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#twitter"></use>
+                      <use href="./images/icons/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Facebook">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#facebook"></use>
+                      <use href="./images/icons/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Linkedin">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#linkedin"></use>
+                      <use href="./images/icons/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -182,28 +229,28 @@
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Instagram">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#instagram"></use>
+                      <use href="./images/icons/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Twitter">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#twitter"></use>
+                      <use href="./images/icons/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Facebook">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#facebook"></use>
+                      <use href="./images/icons/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Linkedin">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#linkedin"></use>
+                      <use href="./images/icons/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -220,28 +267,28 @@
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Instagram">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#instagram"></use>
+                      <use href="./images/icons/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Twitter">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#twitter"></use>
+                      <use href="./images/icons/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Facebook">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#facebook"></use>
+                      <use href="./images/icons/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Linkedin">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#linkedin"></use>
+                      <use href="./images/icons/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -258,28 +305,28 @@
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Instagram">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#instagram"></use>
+                      <use href="./images/icons/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Twitter">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#twitter"></use>
+                      <use href="./images/icons/icons.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Facebook">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#facebook"></use>
+                      <use href="./images/icons/icons.svg#facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="socials-item">
                   <a class="socials-link" href="" aria-label="Linkedin">
                     <svg class="socials-icon" width="20" height="20">
-                      <use href="./images/Icons/icons.svg#linkedin"></use>
+                      <use href="./images/icons/icons.svg#linkedin"></use>
                     </svg>
                   </a>
                 </li>
@@ -297,42 +344,42 @@
           <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-logo" width="106" height="60">
-                <use href="./images/Icons/clients.svg#Logo1"></use>
+                <use href="./images/Icons/clients.svg#yaco"></use>
               </svg>
             </a>
           </li>
           <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-logo" width="106" height="60">
-                <use href="./images/Icons/clients.svg#Logo2"></use>
+                <use href="./images/Icons/clients.svg#com"></use>
               </svg>
             </a>
           </li>
           <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-logo" width="106" height="60">
-                <use href="./images/Icons/clients.svg#Logo3"></use>
+                <use href="./images/Icons/clients.svg#company"></use>
               </svg>
             </a>
           </li>
           <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-logo" width="106" height="60">
-                <use href="./images/Icons/clients.svg#Logo4"></use>
+                <use href="./images/Icons/clients.svg#foster"></use>
               </svg>
             </a>
           </li>
           <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-logo" width="106" height="60">
-                <use href="./images/Icons/clients.svg#Logo5"></use>
+                <use href="./images/Icons/clients.svg#brand"></use>
               </svg>
             </a>
           </li>
           <li class="clients-item">
             <a class="clients-link" href="">
               <svg class="clients-logo" width="106" height="60">
-                <use href="./images/Icons/clients.svg#Logo6"></use>
+                <use href="./images/Icons/clients.svg#tagline"></use>
               </svg>
             </a>
           </li>
@@ -340,7 +387,7 @@
       </div>
     </section>
   </main>
-  <!-- Footer -->
+  <!-- Footer-->
   <footer class="footer">
     <div class="footer-container container">
       <div>
@@ -369,32 +416,45 @@
           <li class="footer-socials-item">
             <a class="footer-socials-link " href="" aria-label="Instagram">
               <svg class="footer-socials-icon" width="20" height="20">
-                <use href="./images/Icons/icons.svg#instagram"></use>
+                <use href="./images/icons/icons.svg#instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer-socials-item">
             <a class="footer-socials-link" href="" aria-label="Twitter">
               <svg class="footer-socials-icon" width="20" height="20">
-                <use href="./images/Icons/icons.svg#twitter"></use>
+                <use href="./images/icons/icons.svg#twitter"></use>
               </svg>
             </a>
           </li>
           <li class="footer-socials-item">
             <a class="footer-socials-link" href="" aria-label="Facebook">
               <svg class="footer-socials-icon" width="20" height="20">
-                <use href="./images/Icons/icons.svg#facebook"></use>
+                <use href="./images/icons/icons.svg#facebook"></use>
               </svg>
             </a>
           </li>
           <li class="footer-socials-item">
             <a class="footer-socials-link" href="" aria-label="Linkedin">
               <svg class="footer-socials-icon" width="20" height="20">
-                <use href="./images/Icons/icons.svg#linkedin"></use>
+                <use href="./images/icons/icons.svg#linkedin"></use>
               </svg>
             </a>
           </li>
         </ul>
+      </div>
+
+      <div class="footer-subscribe">
+
+        <p class="footer-cta-title">Подпишитесь на рассылку</p>
+        <label class="footer-label">
+          <input class="footer-input" type="email" name="email" autocomplete="email" placeholder="E-mail" />
+        </label>
+
+
+        <button class="footer-button" type="button">Подписаться
+          <span class="subscribe-icon"></span>
+        </button>
       </div>
     </div>
   </footer>

@@ -515,19 +515,19 @@ input [type="checkbox"] {
 }
 
 .icon-antenna::before {
-  background-image: url(../images/Icons/antenna.svg);
+  background-image: url(../images/icons/antenna.svg);
 }
 
 .icon-clock::before {
-  background-image: url(../images/Icons/clock.svg);
+  background-image: url(../images/icons/clock.svg);
 }
 
 .icon-diagram::before {
-  background-image: url(../images/Icons/diagram.svg);
+  background-image: url(../images/icons/diagram.svg);
 }
 
 .icon-astronaut::before {
-  background-image: url(../images/Icons/astronaut.svg);
+  background-image: url(../images/icons/astronaut.svg);
 }
 
 .features-title {

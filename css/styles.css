@@ -303,7 +303,6 @@ img {
   flex-direction: column;
   margin-bottom: 10px;
   transition: color var(--animation);
-
 }
 
 .modal-form-field input {
@@ -338,6 +337,10 @@ img {
   line-height: 1.17;
 
   color: var(--secondary-txt-clr);
+}
+
+.last{
+  margin-bottom: 0;
 }
 
 .last textarea {
@@ -391,6 +394,9 @@ img {
 
 .modal-checkbox {
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -404,11 +410,6 @@ img {
   -moz-appearance: none;
   appearance: none;
   position: absolute;
-}
-
-.modal-checkbox {
-  display: flex;
-  align-items: center;
 }
 
 .check-icon {
